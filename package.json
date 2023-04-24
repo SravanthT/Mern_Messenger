@@ -1,0 +1,29 @@
+{
+  "name": "mern_messenger",
+  "version": "1.0.0",
+  "description": "\"MERN messenger is a real-time chat application built using the MERN stack, which stands for MongoDB, Express, React, and Node.js. It allows users to communicate with each other in real-time through chat messages. The app uses Socket.io for real-time communication and MongoDB for storing chat messages. The frontend is built using React and the backend API is built using Express and Node.js. The MERN messenger is a great example of a real-time web application and can be used as a starting point for building more complex chat applications.\"",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\""
+  },
+  "keywords": [
+    "\"Express\"",
+    "\"React\"",
+    "\"MongoDb\"",
+    "\"Chat",
+    "application\"",
+    "\"messenger\""
+  ],
+  "author": "sraharv_creations",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
